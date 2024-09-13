@@ -41,13 +41,14 @@
       "pages": [
         "editor/overview",
         {
-          "group": "Sitemap",
+          "group": "Pages & Templates",
           "pages": [
             "editor/sitemap/introduction",
             "editor/sitemap/create-page",
             "editor/sitemap/create-template"
           ]
-        }
+        },
+        "editor/theme"
       ]
     },
     {
