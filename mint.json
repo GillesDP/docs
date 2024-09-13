@@ -39,7 +39,15 @@
     {
       "group": "Editor",
       "pages": [
-        "editor/overview"
+        "editor/overview",
+        {
+          "group": "Sitemap",
+          "pages": [
+            "editor/sitemap/introduction",
+            "editor/sitemap/create-page",
+            "editor/sitemap/create-template"
+          ]
+        }
       ]
     },
     {
@@ -47,12 +55,14 @@
       "pages": [
         "fragments/banner",
         "fragments/basket",
+        "fragments/content",
         "fragments/FAQ",
         "fragments/footer",
         "fragments/gallery",
         "fragments/grid",
         "fragments/hero",
         "fragments/navigation",
+        "fragments/product",
         "fragments/product-list",
         "fragments/product-overview",
         "fragments/product-table",
