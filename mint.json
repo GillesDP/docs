@@ -48,7 +48,8 @@
             "editor/sitemap/create-template"
           ]
         },
-        "editor/theme"
+        "editor/theme",
+        "editor/fragments"
       ]
     },
     {
