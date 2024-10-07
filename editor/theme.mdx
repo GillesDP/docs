@@ -1,4 +1,94 @@
 ---
 title: Theme
-description: ''
+description: 'An overview of all theming options available in the editor. Learn how to change buttons, colors, typography and container styles.'
 ---
+
+In this guide, we'll show you how to edit the **global** styling of your webstore. We'll dive into how you can configure the buttons, colors, typography, and container.
+
+At the top left of the editor, you'll find the **"Content"** and **"Theme"** toggle. Click on the **"Theme"** tab to access the theme editor.
+
+<Frame>
+  <img src="/images/editor/edit-theme.png" alt="Edit theme tab" />
+</Frame>
+
+Note the different theming groups available. Clicking on a group will display the options available in that group. Clicking on the **"Styles"** button will trigger a popup with predefined styling options you can use. All are curated by us and are made to help you save time!
+
+<Frame>
+  <img src="/images/editor/select-style.png" alt="Select a predefined style" />
+</Frame>
+
+Clicking on any of the styles, will prefill the group with options that are part of that style. You can still customize these options to your liking.
+
+Now let's go over each one of the groups and explain in sufficient detail what they do.
+
+## Button
+
+<Frame>
+  <img src="/images/editor/edit-button.png" alt="Edit the button" />
+</Frame>
+
+1. **Button State** — There are two button states **"Normal"** and **"Hover"**, for which you can configure styling independently. At the very top of the button theme group, you'll find two preview buttons to toggle between these two states. When the first is select, you'll find all styling options when the button is in the normal state. When the second is selected, you'll find all styling options when the button is in the hover state.
+2. **Padding & Border Radius** — Here you can edit the padding (inner spacing) and border radius (roundness) of the button. Typically, you'd have equal spacing in the horizontal direction, and equal spacing in the vertical direction, but you're free to modify things as you wish.
+3. **Border** — The slider can be used to configure border opacity. The numbered button next to the slider indicates the border width. The very last button expresses the location of the border (can be inner, outer or outline).
+4. **Background** — The slider can be used to configure background opacity.
+5. **Shadow** — The slider can be used to configure shadow opacity. The button next to the slider expresses the location of the shadow (can be inner or outer).
+6. **Transition** — This toggle option allows you to enable or disable the transition effect when hovering over the button.
+
+## Color
+
+<Frame>
+  <img src="/images/editor/edit-color.png" alt="Edit the colors" />
+</Frame>
+
+Clicking on any of the colors will open the familiar color picker. The color picker allows you to select any color or gradient you want. We'll also give you an indicator of the contrast ratio; the contrast ratio is calculated with respect to the primary background color. As a rule of thumb, with text you should not go below 4.5, and with large text, you should not go below 3.
+
+1. **Primary** — Used for primary buttons and some subtitles. This color is the main accent color, should be used sparingly and reflect your brand.
+2. **Secondary** — Used for secondary buttons. This color is used for buttons that require less attention.
+3. **Danger** — Used for potentially "dangerous" actions (e.g. closing a modal, removing a product from the basket).
+4. **Success** — Used for confirmation buttons.
+5. **Background Primary** — Used for the background of the body.
+6. **Background Secondary** — Used for the background of containerized fragments. This color may also serve as an accent to the main background.
+7. **Foreground Primary** — Used for titles and text that needs emphasis. This color should have a high contrast ratio with the primary background color.
+8. **Foreground Secondary** — Used for paragraphs, and in some cases subtitles or text that doesn't require much attention. This color should have a high contrast ratio with the primary background color, and be ever so slightly different from the primary foreground color for better visual hierarchy.
+
+## Typography
+
+<Frame>
+  <img src="/images/editor/edit-typography.png" alt="Edit the typography" />
+</Frame>
+
+Clicking on any of the typography buttons will open a popup with available fonts. At the moment, we have a curated list of fonts that are available for you to use. However, if you had a specific Google Font in mind that isn't available, please reach out to use and we'll add it for you.
+
+1. **Heading** — Used for titles, headings and buttons.
+2. **Subtitle** — Used for subtitles (small headings).
+3. **Paragraph** — Used for paragraphs.
+
+<Info>We only allow you to use up to three different fonts. This is to ensure that your webstore remains consistent and doesn't become a mess of different fonts. Furthermore, adding more different fonts will slow down your webstore.</Info>
+
+## Container
+
+<Frame>
+  <img src="/images/editor/edit-container.png" alt="Edit the container" />
+</Frame>
+
+1. **Margin & Border Radius** — Here you can edit the margin (outer spacing) and border radius (roundness) of the container.
+2. **Border** — The slider can be used to configure border opacity. The numbered button next to the slider indicates the border width.
+3. **Background** — The slider can be used to configure background opacity.
+4. **Shadow** — The slider can be used to configure shadow opacity. The button next to the slider expresses the location of the shadow (can be inner or outer).
+5. **Spacing** — The select option allows you to select a certain spacing measure and edit its value. Spacing measures are used within fragments to ensure that the spacing between elements is consistent. You can configure XS (eXtra Small), SM (SMall), MD (MeDium), LG (LarGe).
+
+## Theme Versus Fragment Style
+
+<Warning>Changes made to **"Theme"** apply to your entire webstore unless overriden by **"Fragment Styles"**.</Warning>
+
+There is an important difference between editing your global theme and local fragment styles. When you edit the global theme, you're changing the styling for all fragments that use that specific style. However, when you edit the fragment style, you're changing the styling for that specific fragment only. Fragment styles always have precedence over global theming. 
+
+<Frame>
+  <img src="/images/editor/edit-fragment-style.png" alt="Edit the fragment style" />
+</Frame>
+
+Whenever you are overriding the global theme using fragment styles, an orange dot and "Reset" button will be shown next to the style group. Clicking on the "Reset" button will undo your fragment style overrides for that specific group and revert back to the global theme.
+
+Fragment styles are useful when you want to have a specific fragment look different from the rest of your webstore. For example, you might want to have a specific banner fragment that has a different background color than the rest of your webstore. In that case, you'd edit the fragment style of that specific banner fragment.
+
+<Info>Whenever you notice a fragment is not changing styles with the global theme, it might be you've overridden specific styles within that fragment.</Info>
