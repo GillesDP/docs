@@ -1,0 +1,22 @@
+---
+title: Tebex
+---
+
+# Configuration
+
+# Setup
+In order to setup the Tebex plugin correctly, please carefully go through the following steps.
+<Steps>
+  <Step title="Login Page">
+    The Tebex plugin will try to redirect the user to the `/authorize` page, whenever a login is required. You can customize this page by creating a new page with the slug `authorize`. If this page is not available, users will not be able to log in.
+    <Warning>Required: Create a `/authorize` page.</Warning>
+  </Step>
+  <Step title="Basket Page">
+    The Tebex plugin will try to redirect the user to the `/basket` page, whenever the basket button is clicked. You can customize this page by creating a new page with the slug `basket`. If this page is not available, users will be redirected to Tebex Checkout directly.
+    <Info>Optional: Create a `/basket` page.</Info>
+  </Step>
+  <Step title="Product Pages">
+    The Tebex plugin will try to redirect the user to a product page, whenever a product (or its info button) is clicked. This will only work if a CMS page is created for the product.
+    <Warning>Required: Create a CMS page for each product.</Warning>
+  </Step>
+</Steps>

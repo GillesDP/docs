@@ -40,36 +40,18 @@
       "group": "Editor",
       "pages": [
         "editor/overview",
-        {
-          "group": "Pages & Templates",
-          "pages": [
-            "editor/sitemap/introduction",
-            "editor/sitemap/create-page",
-            "editor/sitemap/create-template"
-          ]
-        },
-        "editor/theme",
-        "editor/fragments"
+        "editor/fragments",
+        "editor/pages",
+        "editor/cms-pages",
+        "editor/templates",
+        "editor/themes"
       ]
     },
     {
-      "group": "Fragments",
+      "group": "Plugins",
       "pages": [
-        "fragments/banner",
-        "fragments/basket",
-        "fragments/content",
-        "fragments/FAQ",
-        "fragments/footer",
-        "fragments/gallery",
-        "fragments/grid",
-        "fragments/hero",
-        "fragments/navigation",
-        "fragments/product",
-        "fragments/product-list",
-        "fragments/product-overview",
-        "fragments/product-table",
-        "fragments/social-proof",
-        "fragments/testimonials"
+        "plugins/overview",
+        "plugins/tebex"
       ]
     }
   ],
