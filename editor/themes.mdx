@@ -1,14 +1,37 @@
 ---
 title: Themes
-description: 'An overview of all theming options available in the editor. Learn how to change buttons, colors, typography and container styles.'
 ---
 
+A theme defines the overall look of your website. It consists of global styles (e.g. colors, typography, spacing) and element style (e.g. button, badge, card, input). By editing one single theme, you can change the appearance of your entire website, while making sure everything remains consistent.
+
 # Edit Theme
+To edit a theme, navigate to the **"Theme"** tab in the editor by clicking the **"color swatches"** icon in the sidebar. At the top of the tab, you can select the theme you would like to edit.
 
 ## Global
+Global styles are general settings, and can be compared to CSS variables. Changing a global style will affect all elements that use that global style. Here, you can configure:
+
+* **Border** — Set a global border radius and border width.
+* **Colors** — Define a color palette for your website. You can pick colors from this palette when editing element styles.
+* **Typography** — Set global font families, sizes, weights, and line heights for headings, paragraphs and links.
+* **Spacing** — Define a spacing scale that can be used throughout your website. This ensures consistent spacing between different elements.
 
 ## Elements
+Element styles allow you to customize the appearance of specific UI components. The available elements include:
+
+* **Badge** — Small piece of text that is used to highlight new or important information.
+* **Button** — Clickable button that can be used to trigger an action.
+* **Card** — Container that can hold various types of content.
+* **Input** — Form input field that can be used to collect user data.
+
+If you are familiar with CSS, you will feel right at home here. You can edit most of the CSS properties. Properties that are marked with a yellow dot are active/modified. Properties that are not marked with a dot are using the default value. By clicking on the dot, you can reset the property to its default (unused) value.
+
+Some elements have different states. For instance, a button has a normal state, but also a hover state (when the user hovers their mouse over the button) and an active state (when the button is being clicked). You can switch between those states and edit the properties for each state individually.
+
 
 # Duplicate Theme
+It is possible to create multiple themes and experiment with different looks. To duplicate a theme, click the **"dropdown"** icon next to the theme name, at the very top of the **"Theme"** tab. Select the theme you would like to duplicate, and press the **"Duplicate"** button.
 
-# Configure Primary Theme
+# Select Primary Theme
+Each project can only have one active primary theme. This theme will be applied to all fragments, unless a fragment is assigned a different theme through its settings (see [fragments](/editor/fragments)). 
+
+Click one of the themes you created, and press the **"Move Primary"** button to set it as the project's primary theme.

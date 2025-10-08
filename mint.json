@@ -39,7 +39,6 @@
     {
       "group": "Editor",
       "pages": [
-        "editor/overview",
         "editor/fragments",
         "editor/pages",
         "editor/cms-pages",
