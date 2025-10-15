@@ -1,0 +1,20 @@
+---
+title: Pages
+---
+
+Fragmentor defines two types of pages: regular pages and CMS pages. 
+
+* **Page** — Regular pages are ideal for static content that does not change often.
+* **CMS Page** — CMS pages are specifically designed to handle dynamic content automatically.
+
+In practice, the only difference between the two is that CMS pages contain an additional **"Context"** field that refers to a CMS item. This CMS item is used to populate the page with dynamic content. In fact, every fragment with a data source set to **"Automatic"**, will use the linked CMS item to fetch the relevant data. This is especially powerful when used in conjunction with [templates](/editor/templates.mdx).
+
+# Create Page
+
+To create a new page, click on the **"+"** button on the "Pages" tab. All pages are uniquely defined by a page slug (i.e. the URL path). For instance, a page with the slug `about` will be accessible at `yourdomain.com/about`. If needed, you can select a template to be used on the page. Hit the **"Create Page"** button to create the page.
+
+# Edit Page
+
+Now that a new page was created, you can start adding fragments to it. First, select the page you would like to edit. Once you have the page selected, simply drag and drop fragments from the left sidebar into the main area of the editor.
+
+You can edit the page's settings by click the **"Gear Icon"** next to the page name. Here, you can update the page's slug, as well as its SEO settings (title, description, image). You can also inject custom code into the `<head>` or `<body>` tags of the page.

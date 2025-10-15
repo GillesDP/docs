@@ -1,46 +1,48 @@
 ---
 title: Fragments
-description: 'An explanation about fragments and how to use them in the editor.'
 ---
 
-Fragments are the essential building blocks of your website. They are the components that you can drag and drop into your project to build your storefront. Each fragment has its own set of configuration options and styling options. In this guide, we'll go over how to use and configure them appropriately.
+Fragments are reusable components that can be added to pages or templates. Some fragments act as sections, they can be added on a page or template directly. Other fragments are children of those sections, and cannot be added directly but have to exist within another fragment. 
 
-<Frame>
-  <img src="/images/view-fragments.png" />
-</Frame>
+# Insert Fragment
+In order to insert or add a fragment to a page or template, click the **"+"** icon in the sidebar. A list of available (section) fragments will appear. Depending on the plugins you have installed, you may see several more fragments. 
 
-Upon opening the editor, you'll see the fragment library on the left side of the screen. There are several fragment types available, each one can be used for different purposes, some interact with your e-commerce platform, while others are purely static. 
+You can use the search bar to quickly find a specific fragment. Once you have found the fragment you would like to add, simply drag and drop it into the main area of the editor. You can also click on the fragment to add it to the bottom of the page/template.
 
-<Info>**Looking for a fragment, but can't find it?** We're adding new fragment types and fragment variants every week. If you have specific requests, please let us know.</Info>
+# Edit Fragment
 
+### Fragment Theme
+It is possible to apply a theme to a section fragment. When such a fragment is selected, the sidebar will show a **"Theme"** dropdown, from which you can select any of the themes you created. More information about themes can be found [here](/editor/themes).
 
-## Adding Fragments
-To add a fragment to your website, simply drag it from the fragment library onto the main area of the editor. An outline will be shown to indicate where the fragment will be placed. By dragging the fragment over to one side of the outline, you can place it in a column. By dragging the fragment over the center of the outline, you can place it in a row.
+### Fragment Background
+Some fragments allow you to set a background. When such a fragment is selected, the sidebar will show a **"Background"** section. You can choose between a solid color, a gradient, or an image background.
 
-<Frame>
-  <img src="/images/add-fragments.png" />
-</Frame>
+### Fragment Layouts
+Fragments can have different layouts. When clicking on a fragment, the sidebar will display the available layouts. You can switch between layouts by clicking on one of the layout thumbnails. The fragment will automatically update to reflect the new layout.
 
-Once you've added a fragment, you will notice the left sidebar has changed. It shows the specific fragments that were added onto the page. Clicking on any of these fragments will show you the configuration options for that fragment.
+Interestingly, your content will not be deleted when you switch layouts. This allows you to quickly experiment with different layouts without having to redo all the work.
 
+### Fragment Properties
+Fragments consist of properties that can be edited. Editing those properties has never been easier. Simply hover over the fragment and look for outlines indicating a property. By clicking on the property, you can edit its value. Some properties can even be deleted by pressing the **"Backspace"** or **"Delete"** key on your keyboard.
 
-## Editing Fragments
-You can edit a fragment by clicking on it, either inside the editor preview or in the left sidebar. 
+A list of available fragment properties:
+- **Text** — Text properties are modified by clicking on them. Some fields allow for rich text editing, while others require plain text only.
+- **Number** — Number properties are modified by clicking on the **"ruler"** icon in the right corner of a fragment.
+- **Link** — Link properties are modified by clicking on the **"link"** icon in the right corner of a fragment. You can link to internal pages or external URLs.
+- **Media (Image/Video)** — Media properties are modified by clicking on them.
+- **Icon** — Icon properties are modified by clicking on them.
+- **Fragment** — Fragment properties are modified by clicking on them.
+- **Fragment List** — Fragment list properties are modified by clicking on them. They allow you to add multiple fragments of the same type (or different types).
+- **Data** — Data properties are modified by clicking on the **"data"** icon in the right corner of a fragment. The selected data source will be used to populate the fragment with data.
 
-<Frame>
-  <img src="/images/select-fragment.png" />
-</Frame>
+Some fragments may have a **"refresh"** icon in the left corner. This button indicates that the fragment can be replaced by another fragment and allow you to be more flexible when designing your site.
 
-Doing so will open up a set of options that can be configured for that specific fragment type. These options can be different for each fragment type. For example, a content fragment has a title, subtitle and description, while a FAQ fragment has a configurable list of questions and answers.
+In most cases, it is possible to change the order of a fragment. This can be done by clicking one of the **"up"** or **"down"** arrows when a fragment is selected. This is especially helpful to move section fragments up and down the page, or move fragments inside a Fragment List.
 
-<Frame>
-  <img src="/images/fragment-options.png" />
-</Frame>
+# Copy fragment
+You may find yourself in a situation where you want to copy a fragment and paste it in another location. Copying a fragment is as simple as selecting the fragment, and using the well-known key combination **Ctrl + C** (or **Cmd + C** on Mac). You can then paste the fragment using **Ctrl + V** (or **Cmd + V** on Mac) in another location.
 
-Besides the options, you can also configure the styling of the fragment. Each fragment has a set of variants to choose from. In the example below, you can see two variants for the content fragment, one with a subtitle below the title and one with a subtitle above the title. 
+In case you want fragments to stay in sync (i.e. when you edit one fragment, the other fragment updates automatically), please refer to [templates](/editor/templates).
 
-Next to selecting a specific variant, you can also override the global theme settings for the selected fragment. For more information on that, please check out the [theme guide](/editor/theme#theme-versus-fragment-style).
-
-<Frame>
-  <img src="/images/fragment-style.png" />
-</Frame>
+# Delete fragment
+To delete a fragment, you can click the **"trash"** icon in the sidebar. Alternatively, you can select the fragment and press the **"Delete"** or **"Backspace"** key on your keyboard.

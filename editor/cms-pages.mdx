@@ -1,0 +1,24 @@
+---
+title: CMS Pages
+---
+
+CMS Pages are a special type of page designed to handle dynamic content (typically fetched from an external data source) more efficiently. When creating a CMS page, you will be prompted to select a CMS item from one of the Fragmentor plugins (e.g. Tebex). This CMS item (e.g. Tebex Product) will then be shown in the **"Context"** field of the page settings. CMS Pages inform the editor: "This page is linked to this CMS item".
+
+# Create CMS Page
+
+To create a new CMS page, click on the **"+"** button on the "Pages" tab, and press the **"CMS Page"** button. You can select a collection (e.g. Products) and choose what CMS item you would like to create a CMS page for. Typically, you would want to create one CMS page for every CMS item. Similarly, you can select a template to be used on the page. Hit the **"Create Pages"** button to create the CMS pages.
+
+# Edit CMS Page
+
+When a CMS page is created, you can edit it just like a regular page. The only difference is that you will see an additional **"Context"** field in the page settings. This field indicates what CMS item the page is linked to.
+
+
+# Motivation Behind CMS Pages
+
+As you now know, **CMS pages are linked to a specific CMS item**. This knowledge is used by plugins to handle logic and populate fragments with data. Consider the Tebex plugin in particular.
+
+### Automatic Data Source
+When a fragment has its data source set to **"Automatic"**, it will automatically fetch data from the linked CMS item. For example, if you have a Product CMS page linked to a specific product, and you add a Product fragment with its data source set to **"Automatic"**, the fragment will automatically fetch data from the linked product. This is extremely powerful when used in conjunction with [templates](/editor/templates.mdx). You can create a single Product template, and assign it to all Product CMS pages. Each page will then automatically fetch data from its linked product.
+
+### Automatic Routing
+Page context is also used to handle routing logic. For example, when clicking on a Product fragment to view more details, the plugin will look through all CMS pages to find the one that is linked to the product. If found, it will navigate to that page.
